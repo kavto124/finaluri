@@ -1,0 +1,211 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: whitesmoke;
+}
+header div {
+  display: flex;
+}
+header div .aboutushtml {
+  font-size: 40px;
+  transition: font-size 0.5s ease-in-out;
+}
+header div img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+}
+header div .joxi {
+  display: flex;
+  background-color: black;
+  width: 2px;
+  height: 50px;
+  margin-top: 10px;
+}
+header .ETlogo {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+}
+header .nav {
+  margin-top: 20px;
+  gap: 100px;
+  margin: auto;
+}
+header .nav div a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: font-size 0.5s ease-in-out;
+}
+header .nav div a:hover {
+  font-size: 40px;
+}
+header .search {
+  width: 200px;
+  border-radius: 10px;
+  border: black 1px solid;
+  height: 25px;
+  padding-left: 5px;
+}
+header .searchicon {
+  margin-left: 10px;
+  border: 0;
+}
+
+.mission {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+.mission img {
+  width: 100%;
+  height: 400px;
+}
+.mission h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  font-size: 40px;
+  color: white;
+}
+.mission p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%, -10%);
+}
+
+.h1 {
+  font-size: 40px;
+  margin: 50px;
+}
+
+.exptbi {
+  display: flex;
+  gap: 50px;
+  background-color: gray;
+}
+.exptbi p {
+  margin: 50px;
+  font-size: 25px;
+}
+.exptbi img {
+  margin-right: 50px;
+  width: 700px;
+  height: 500px;
+}
+
+.purpose {
+  display: flex;
+  gap: 50px;
+  background-color: lightblue;
+}
+.purpose p {
+  margin: 50px;
+  font-size: 25px;
+}
+.purpose img {
+  margin-right: 50px;
+  width: 700px;
+  height: 500px;
+}
+
+.results {
+  display: flex;
+  gap: 50px;
+  background-color: lightgreen;
+}
+.results p {
+  margin: 50px;
+  font-size: 25px;
+}
+.results img {
+  margin-right: 50px;
+  width: 700px;
+  height: 500px;
+}
+
+.faq-container img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.faq-container .faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+.faq-container .question {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.faq-container .answer {
+  font-size: 16px;
+  color: #555;
+}
+
+footer {
+  display: flex;
+  margin-top: 100px;
+  background-color: #111212;
+  width: 100%;
+  height: 200px;
+}
+footer div {
+  margin-top: 20px;
+  display: flex;
+  gap: 80px;
+}
+footer div .logos {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div img {
+  margin-left: 50px;
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+}
+footer div h3 {
+  color: white;
+  font-size: 20px;
+}
+footer div .info, footer div .address, footer div .follow, footer div .tbc {
+  margin-left: 50px;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+footer div .info a, footer div .address a, footer div .follow a, footer div .tbc a {
+  text-decoration: none;
+  color: white;
+}
+footer div .info img, footer div .address img, footer div .follow img, footer div .tbc img {
+  margin-left: 0px;
+  width: 20px;
+  height: 20px;
+}
+footer div .info .fb, footer div .info .ig, footer div .address .fb, footer div .address .ig, footer div .follow .fb, footer div .follow .ig, footer div .tbc .fb, footer div .tbc .ig {
+  margin-left: -40px;
+}/*# sourceMappingURL=Aboutus.css.map */

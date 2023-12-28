@@ -1,0 +1,182 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@600&family=Roboto:wght@100;400&family=Ruslan+Display&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: whitesmoke;
+}
+header div {
+  display: flex;
+}
+header div .tourshtml {
+  font-size: 40px;
+  transition: font-size 0.5s ease-in-out;
+}
+header div img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+}
+header div .joxi {
+  display: flex;
+  background-color: black;
+  width: 2px;
+  height: 50px;
+  margin-top: 10px;
+}
+header .ETlogo {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+}
+header .nav {
+  margin-top: 20px;
+  gap: 100px;
+  margin: auto;
+}
+header .nav div a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: font-size 0.5s ease-in-out;
+}
+header .nav div a:hover {
+  font-size: 40px;
+}
+header .search {
+  width: 200px;
+  border-radius: 10px;
+  border: black 1px solid;
+  height: 25px;
+  padding-left: 5px;
+}
+header .searchicon {
+  margin-left: 10px;
+  border: 0;
+}
+
+.memories {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+.memories img {
+  width: 100%;
+  height: 700px;
+}
+.memories h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  font-family: "Lobster", sans-serif;
+}
+
+.tours {
+  margin-left: 40px;
+  font-size: 40px;
+}
+.tours h1 {
+  margin-top: 20px;
+}
+.tours h2 {
+  margin-top: 20px;
+  font-size: 35px;
+}
+.tours .topsights {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+.tours .topsights div {
+  width: 452px;
+  height: 552px;
+  border: 1px solid gray;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+.tours .topsights div h3 {
+  margin-left: 20px;
+  font-size: 25px;
+}
+.tours .topsights div img {
+  border: 1px solid gray;
+  width: 450px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+.tours .topsights div img:hover {
+  transform: scale(1.1);
+}
+.tours .topsights div p {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  margin-top: 100px;
+  background-color: #111212;
+  width: 100%;
+  height: 200px;
+}
+footer div {
+  margin-top: 20px;
+  display: flex;
+  gap: 80px;
+}
+footer div .logos {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div img {
+  margin-left: 50px;
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+}
+footer div h3 {
+  color: white;
+  font-size: 20px;
+}
+footer div .info, footer div .address, footer div .follow, footer div .tbc {
+  margin-left: 50px;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+footer div .info a, footer div .address a, footer div .follow a, footer div .tbc a {
+  text-decoration: none;
+  color: white;
+}
+footer div .info img, footer div .address img, footer div .follow img, footer div .tbc img {
+  margin-left: 0px;
+  width: 20px;
+  height: 20px;
+}
+footer div .info .fb, footer div .info .ig, footer div .address .fb, footer div .address .ig, footer div .follow .fb, footer div .follow .ig, footer div .tbc .fb, footer div .tbc .ig {
+  margin-left: -40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=Tours.css.map */

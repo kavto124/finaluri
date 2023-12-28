@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: whitesmoke;
+}
+header div {
+  display: flex;
+}
+header div .homehtml {
+  font-size: 40px;
+  transition: font-size 0.5s ease-in-out;
+}
+header div img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+}
+header div .joxi {
+  display: flex;
+  background-color: black;
+  width: 2px;
+  height: 50px;
+  margin-top: 10px;
+}
+header .ETlogo {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+}
+header .nav {
+  margin-top: 20px;
+  gap: 100px;
+  margin: auto;
+}
+header .nav div a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: font-size 0.5s ease-in-out;
+}
+header .nav div a:hover {
+  font-size: 40px;
+}
+header .search {
+  width: 200px;
+  border-radius: 10px;
+  border: black 1px solid;
+  height: 25px;
+  padding-left: 5px;
+}
+header .searchicon {
+  margin-left: 10px;
+  border: 0;
+}
+
+.logo {
+  background-color: #47141d;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo img {
+  width: 300px;
+  height: 250px;
+}
+.logo .et {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fabca3;
+}
+.logo .slogan {
+  font-size: 10px;
+  color: #fabca3;
+}
+
+.about_tbilisi {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.about_tbilisi h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.about_tbilisi .Sights {
+  display: flex;
+  gap: 40px;
+}
+.about_tbilisi .Sights img {
+  width: 450px;
+  height: 300px;
+}
+.about_tbilisi .Sights h3 {
+  font-size: 25px;
+  color: darkblue;
+}
+.about_tbilisi .Sights .sameba:hover {
+  font-size: 15px;
+  width: 450px;
+  color: black;
+}
+.about_tbilisi .Sights .sameba:hover::after {
+  content: " is the main cathedral of the Georgian Orthodox Church located in Tbilisi, the capital of Georgia. Constructed between 1995 and 2004, it is the third-tallest Eastern Orthodox cathedral in the world and one of the largest religious buildings in the world by total area. Sameba is a synthesis of traditional styles dominating the Georgian church architecture at various stages in history and has some Byzantine undertones.";
+}
+.about_tbilisi .Sights .narikala:hover {
+  font-size: 15px;
+  width: 450px;
+  color: black;
+}
+.about_tbilisi .Sights .narikala:hover::after {
+  content: " Narikala is an ancient fortress overlooking Tbilisi, the capital of Georgia, and the Mtkvari River. The fortress consists of two walled sections on a steep hill between the sulfur baths and the botanical gardens of Tbilisi. On the lower court there is the recently restored St Nicholas church. Newly built in 1996–1997, it replaces the original 13th-century church that was destroyed in a fire. The new church is of prescribed cross type, having doors on three sides. The internal part of the church is decorated with the frescos showing scenes from both the Bible and the history of Georgia.";
+}
+.about_tbilisi .Sights .old_Tbilisi:hover {
+  font-size: 15px;
+  width: 450px;
+  color: black;
+}
+.about_tbilisi .Sights .old_Tbilisi:hover::after {
+  content: " refers to the historical parts of Tbilisi. Although the term Old Tbilisi has long been used to denote the oldest part of the city, it was only in 2007 that it became an official administrative distinct, while also incorporating several historical neighbourhoods formerly included in the districts of Mtatsminda-Krtsanisi, Isani-Samgori, and Didube-Chugureti. The official district was abolished in 2013, with its territories allotted to several other divisions of the capital; however, locals and visitors continue to refer to historical districts as Old Tbilisi without precise boundaries.";
+}
+.about_tbilisi .ent_h2 {
+  margin-top: 50px;
+}
+.about_tbilisi .Entertainment {
+  display: flex;
+  gap: 40px;
+}
+.about_tbilisi .Entertainment img {
+  width: 450px;
+  height: 300px;
+}
+.about_tbilisi .Entertainment h3 a {
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+}
+.about_tbilisi .foodh2 {
+  margin-top: 50px;
+}
+.about_tbilisi .food {
+  display: flex;
+  gap: 40px;
+}
+.about_tbilisi .food img {
+  width: 450px;
+  height: 300px;
+}
+.about_tbilisi .food h3 a {
+  margin-top: 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+}
+
+footer {
+  display: flex;
+  margin-top: 100px;
+  background-color: #111212;
+  width: 100%;
+  height: 200px;
+}
+footer div {
+  margin-top: 20px;
+  display: flex;
+  gap: 80px;
+}
+footer div .logos {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div img {
+  margin-left: 50px;
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+}
+footer div h3 {
+  color: white;
+  font-size: 20px;
+}
+footer div .info, footer div .address, footer div .follow, footer div .tbc {
+  margin-left: 50px;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+footer div .info a, footer div .address a, footer div .follow a, footer div .tbc a {
+  text-decoration: none;
+  color: white;
+}
+footer div .info img, footer div .address img, footer div .follow img, footer div .tbc img {
+  margin-left: 0px;
+  width: 20px;
+  height: 20px;
+}
+footer div .info .fb, footer div .info .ig, footer div .address .fb, footer div .address .ig, footer div .follow .fb, footer div .follow .ig, footer div .tbc .fb, footer div .tbc .ig {
+  margin-left: -40px;
+}/*# sourceMappingURL=Home.css.map */
